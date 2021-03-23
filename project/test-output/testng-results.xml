@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-15T14:04:27Z" name="Suite" finished-at="2021-03-15T14:05:15Z" duration-ms="47600">
+    <groups>
+    </groups>
+    <test started-at="2021-03-15T14:04:27Z" name="Test" finished-at="2021-03-15T14:05:15Z" duration-ms="47600">
+      <class name="agri_crop.project.Main">
+        <test-method is-config="true" signature="setupExtent()[pri:0, instance:agri_crop.project.Main@8bffb8b]" started-at="2021-03-15T14:04:27Z" name="setupExtent" finished-at="2021-03-15T14:04:28Z" duration-ms="434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupExtent -->
+        <test-method is-config="true" signature="beforeMethod()[pri:0, instance:agri_crop.project.Main@8bffb8b]" started-at="2021-03-15T14:04:28Z" name="beforeMethod" finished-at="2021-03-15T14:04:33Z" duration-ms="5782" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="test()[pri:0, instance:agri_crop.project.Main@8bffb8b]" started-at="2021-03-15T14:04:34Z" name="test" finished-at="2021-03-15T14:05:13Z" duration-ms="39629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:agri_crop.project.Main@8bffb8b]" started-at="2021-03-15T14:05:13Z" name="tearDown" finished-at="2021-03-15T14:05:15Z" duration-ms="1451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test status=SUCCESS method=Main.test()[pri:0, instance:agri_crop.project.Main@8bffb8b] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- agri_crop.project.Main -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
